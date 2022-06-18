@@ -1,0 +1,82 @@
+h1 {
+  font-size: 45pt;
+}
+
+p{
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+button {
+  font-size: 20px;
+  width: 90px;
+  height: 50px;
+  color: white;
+  margin: 10px 20px;
+}
+
+.div-section {
+  border: solid 1px rgba(146, 146, 146, 0.469);
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn-style-fill {
+  border: none;
+  background-color: rgba(92, 92, 93, 0.708);
+}
+
+.btn-style-hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-style-hover:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-style-shadow {
+  background-color: white;
+  color: black;
+  border: solid 1px gray;
+  border-radius: 8px;
+  box-shadow: 5px 10px gray;
+}
+
+.btn-style-v-shadow {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  box-shadow: -1px 1px 1px 2px rgba(162, 162, 162, 0.504);
+}
+
+.btn-style-v2-shadow {
+  background-color: white;
+  color: black;
+  border: solid 1px rgb(174, 174, 174);
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px 1px rgba(174, 174, 174, 0.638);
+}
+
+.btn-style-icon-outline {
+  background-color: white;
+  color: green;
+  border: solid 1px rgb(0, 151, 0);
+  border-radius: 8px;
+}
+
+.bi-check-circle-fill {
+  color: green;
+}
+
+.btn-style-icon-border-none {
+  border: none;
+  color: black;
+}
+
+.bi-x-circle-fill {
+  color: red;
+}
