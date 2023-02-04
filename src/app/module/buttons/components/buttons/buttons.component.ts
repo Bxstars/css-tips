@@ -6,16 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent implements OnInit {
-  active: boolean = false;
+
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
 
-  }
-
-  selected(event:Event) {
-    this.active = !this.active;
-  }
 
 }

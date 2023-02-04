@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ButtonsComponent } from './module/buttons/components/buttons/buttons.component';
+import { NavComponent } from './shared/template/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
@@ -15,4 +17,4 @@ import { ButtonsComponent } from './module/buttons/components/buttons/buttons.co
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule{ }
